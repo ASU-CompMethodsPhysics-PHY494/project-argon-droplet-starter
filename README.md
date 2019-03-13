@@ -11,7 +11,17 @@ For details see [project_2.pdf](project_2.pdf). **Note the
 requirements for code and report** and note what constitutes
 admissable collaboration between teams.
 
-Starter code is available in directory [code/](code).
+## Resources
+### Code
+Starter code is available in directory [code/](code). It is explained
+in the appendices of the write-up [project_2.pdf](project_2.pdf). 
+
+### Example data 
+The [example](example) directory contains output from a simulation of
+the Lennard-Jones fluid. You can use it to develop the analysis
+portion of the project even while your MD code is not yet producing
+results. The README shows how to read the data.
+
 
 ## Submission
 
