@@ -1,4 +1,4 @@
-# Midterm Project 2019
+# Midterm Project 2020
 
 Your project is to write, in teams of three students, a Python
 molecular dynamics (MD) code to simulate a droplet of liquid Argon. We

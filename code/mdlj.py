@@ -78,7 +78,9 @@ if __name__ == "__main__":
     #------------------------------------------------------------
     # initialization
     #------------------------------------------------------------
-    atoms, coordinates, box = system.generate_droplet(density, R, atomname=atom_name,
+    atoms, coordinates, box = system.generate_droplet(density,
+                                                      R,
+                                                      atomname=atom_name,
                                                       lattice="cubic")
     velocities = initial_velocities(atoms, initial_temperature)
 
@@ -86,7 +88,8 @@ if __name__ == "__main__":
     #------------------------------------------------------------
     # MD
     #------------------------------------------------------------
-    results = dynamics(atoms, coordinates, velocities, dt, nsteps=nsteps,
+    results = dynamics(atoms, coordinates, velocities, dt,
+                       nsteps=nsteps,
                        filename="trajectory.xyz")
 
 

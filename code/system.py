@@ -149,7 +149,9 @@ def generate_droplet(rho, R, atomname="Ar", lattice="fcc"):
     # number of atoms
     N = rho * Vsuper
 
-    atoms, coordinates, box = generate_lattice(rho, N, atomname=atomname, lattice=lattice)
+    atoms, coordinates, box = generate_lattice(rho, N,
+                                               atomname=atomname,
+                                               lattice=lattice)
     atoms = np.array(atoms)
 
     # center on center of mass
